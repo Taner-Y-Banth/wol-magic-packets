@@ -1,0 +1,14 @@
+{
+    "modules": [
+        {
+            "type": "sandbox",
+            "name": "discord-sender",
+            "folder": "discord-sender"
+        },
+        {
+            "type": "nodejs",
+            "name": "receiver",
+            "folder": "receiver"
+        }
+    ]
+}

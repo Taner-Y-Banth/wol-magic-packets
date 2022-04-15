@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "discord": "^0.8.2",
+    "minimist": "^1.2.6",
+    "nstrumenta": "^3.0.0"
+  }
+}
