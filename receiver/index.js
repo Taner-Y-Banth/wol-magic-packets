@@ -6,7 +6,7 @@ import { $ } from 'zx';
 const argv = minimist(process.argv.slice(2));
 const wsUrl = argv.wsUrl;
 const personalMac = argv.personalMac
-const altMac = argv.altpcMac
+const altMac = argv.altMac
 const nstClient = new NstrumentaClient();
 
 nstClient.addListener("open", () => {

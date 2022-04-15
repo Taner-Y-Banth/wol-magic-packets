@@ -6,10 +6,10 @@ import Discord from 'discord.js';
 const argv = minimist(process.argv.slice(2));
 const wsUrl = argv.wsUrl;
 const nstClient = new NstrumentaClient();
+const token = argv.token
 
 const prefix = '-'
 const bot = new Discord.Client();
-const token = 'Nzg5NzMwOTI1OTQzODQ4OTkx.X92UPQ.ViiWLBoM2aJJ00cxaXMHgwDGW08'
 
 bot.login(token)
 
