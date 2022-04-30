@@ -37,6 +37,9 @@ bot.on('message', async (msg) => {
 
 nstClient.addListener("open", () => {
     console.log("websocket opened successfully");
+    nstClient.addSubscription('alert', (msg)=>{
+        msg.reply('***APPROACHING*** @TanerYBanth')
+    });
 });
 
 nstClient.connect({ wsUrl, nodeWebSocket: ws });
